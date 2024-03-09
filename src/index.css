@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: #fff;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8d5b00;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3770EF;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-wide {
+  width: 16rem;
+}
+.btn-primary {
+  border-color: #FFBE1A;
+  background-color: #FFBE1A;
+  color: #131616;
+  outline-color: #FFBE1A;
+}
+
+.btn {
+  display: inline-flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border-color: transparent;
+  text-align: center;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: .875rem;
+  line-height: 1em;
+  min-height: 3rem;
+  gap: 0.5rem;
+  font-weight: 600;
+  text-decoration-line: none;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  text-transform: capitalize !important;
+}
+
+.bg-neutral-content {
+  background-color: #d2cbc6
+}
+
+.text-neutral {
+  color: #2e1a05;
+}
+
+.gradient-header {
+  /* background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44); */
+  background: linear-gradient(to right, #ff6b08, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

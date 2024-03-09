@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+* {
+  color: #fff;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  background-color: #212121;
+}
