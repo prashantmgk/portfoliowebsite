@@ -7,6 +7,8 @@ module.exports = {
     extend: {
       textColor: {
         'default': '#ffffff',
+        'accent': '#FFBE1A',
+        'muted': '#cfcfcf'
       },
     },
   },
