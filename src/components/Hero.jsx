@@ -3,7 +3,7 @@ import GithubIcon from '../assets/icons/github-icon.png'
 import LinkedinIcon from '../assets/icons/linkedin-icon.png'
 import XIcon from '../assets/icons/x-icon.png'
 import DirectDonwloadIcon from '../assets/icons/direct-download.png'
-import HeroImage from '../assets/icons/hero-image.png'
+import HeroImage from '../assets/images/hero-image.png'
 import CV from '../assets/files/CV for Prashant Man Gayak.pdf'
 
 const Hero = () => {

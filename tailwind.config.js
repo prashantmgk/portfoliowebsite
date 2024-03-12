@@ -10,6 +10,9 @@ module.exports = {
         'accent': '#FFBE1A',
         'muted': '#cfcfcf'
       },
+      colors: {
+        darkerBg: '#0F0F0F',
+      }
     },
   },
   plugins: [],
