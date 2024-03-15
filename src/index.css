@@ -83,7 +83,7 @@ code {
 }
 
 .bg-neutral-content {
-  background-color: #d2cbc6
+  background-color: #d2cbc6;
 }
 
 .text-neutral {
@@ -112,3 +112,17 @@ code {
 a:hover {
   transition: border-bottom 0.3s ease;
 }
+
+
+.hoverGroup:hover .arrowIcon {
+  transform: translateX(8px);
+  transition: transform 0.3s ease;
+  color: #FFBE1A
+
+}
+
+.hoverGroup .arrowIcon {
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+

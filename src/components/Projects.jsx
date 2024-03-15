@@ -1,49 +1,160 @@
 import React from 'react'
 import ResponsiveCarousel from './ResponsiveCarousel'
 import { Grid } from '@mui/material';
+import { BsUnity } from "react-icons/bs";
+import { TbBrandCSharp } from "react-icons/tb";
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
-export const data = [
+import RealCarParking0 from '../assets/images/real-car-parking/real-car-parking-0.webp';
+import RealCarParking1 from '../assets/images/real-car-parking/real-car-parking-1.webp';
+import RealCarParking2 from '../assets/images/real-car-parking/real-car-parking-2.webp';
+import RealCarParking3 from '../assets/images/real-car-parking/real-car-parking-3.webp';
+
+import HS0 from '../assets/images/hysab-soch/hs0.png';
+import HS1 from '../assets/images/hysab-soch/hs1.png';
+import HS2 from '../assets/images/hysab-soch/hs2.png';
+import HS3 from '../assets/images/hysab-soch/hs3.png';
+
+import DB0 from '../assets/images/diabetes-prediction/db0.png';
+import DB1 from '../assets/images/diabetes-prediction/db1.png';
+import DB2 from '../assets/images/diabetes-prediction/db2.png';
+
+import TSOP0 from '../assets/images/ticket-sewa-organizer-panel/tsop0.png';
+import TSOP1 from '../assets/images/ticket-sewa-organizer-panel/tsop1.png';
+import TSOP2 from '../assets/images/ticket-sewa-organizer-panel/tsop2.png';
+import TSOP3 from '../assets/images/ticket-sewa-organizer-panel/tsop3.png';
+import TSOP4 from '../assets/images/ticket-sewa-organizer-panel/tsop4.png';
+import TSOP5 from '../assets/images/ticket-sewa-organizer-panel/tsop5.png';
+import TSOP6 from '../assets/images/ticket-sewa-organizer-panel/tsop6.png';
+
+
+const projectData = [
    {
-      cover: "https://images6.alphacoders.com/679/thumb-1920-679459.jpg",
-      title: "Interstaller",
+      title: "Real Car Parking 🚦",
+      description: "Real Car Parking is a simple and minimal car parking game with easy-to-use controls. Practice your parking skills in this 3D setup with customizable controls like driver seat sides and steering...",
+      techStackIcons: [
+         <TbBrandCSharp size={28} />,
+         <BsUnity size={22} />,
+         <FaGithub size={22} />,
+      ],
+      images: [
+
+         {
+            cover: RealCarParking0,
+            title: "Real Car Parking 0",
+         },
+         {
+            cover: RealCarParking1,
+            title: "Real Car Parking 1",
+         },
+         {
+            cover: RealCarParking2,
+            title: "Real Car Parking 2",
+         },
+         {
+            cover: RealCarParking3,
+            title: "Real Car Parking 3",
+         },
+      ]
    },
+
    {
-      cover: "https://images2.alphacoders.com/851/thumb-1920-85182.jpg",
-      title: "Inception",
+      title: "Ticket Sewa Organizer Panel 🎫",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      techStackIcons: [
+         <TbBrandCSharp size={28} />,
+         <BsUnity size={22} />,
+         <FaGithub size={22} />,
+      ],
+
+      images: [
+         {
+            cover: TSOP0,
+            title: "Ticket Sewa Organizer Panel 0",
+         },
+         {
+            cover: TSOP1,
+            title: "Ticket Sewa Organizer Panel 1",
+         },
+         {
+            cover: TSOP2,
+            title: "Ticket Sewa Organizer Panel 2",
+         },
+         {
+            cover: TSOP3,
+            title: "Ticket Sewa Organizer Panel 3",
+         },
+         {
+            cover: TSOP4,
+            title: "Ticket Sewa Organizer Panel 4",
+         },
+         {
+            cover: TSOP5,
+            title: "Ticket Sewa Organizer Panel 5",
+         },
+         {
+            cover: TSOP6,
+            title: "Ticket Sewa Organizer Panel 6",
+         },
+      ]
    },
+
    {
-      cover: "https://images6.alphacoders.com/875/thumb-1920-875570.jpg",
-      title: "Blade Runner 2049",
+      title: "Hysab Soch 📊",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      techStackIcons: [
+         <TbBrandCSharp size={28} />,
+         <BsUnity size={22} />,
+         <FaGithub size={22} />,
+      ],
+
+      images: [
+         {
+            cover: HS0,
+            title: "Hysab Soch 0",
+         },
+         {
+            cover: HS1,
+            title: "Hysab Soch 1",
+         },
+         {
+            cover: HS2,
+            title: "Hysab Soch 2",
+         },
+         {
+            cover: HS3,
+            title: "Hysab Soch 3",
+         }
+      ]
    },
+
    {
-      cover: "https://images6.alphacoders.com/114/thumb-1920-1141749.jpg",
-      title: "Icon man 3",
-   },
-   {
-      cover: "https://images3.alphacoders.com/948/thumb-1920-948864.jpg",
-      title: "Venom",
-   },
-   {
-      cover: "https://images2.alphacoders.com/631/thumb-1920-631095.jpg",
-      title: "Steins Gate",
-   },
-   {
-      cover: "https://images4.alphacoders.com/665/thumb-1920-665242.png",
-      title: "One Punch Man",
-   },
-   {
-      cover: "https://images2.alphacoders.com/738/thumb-1920-738176.png",
-      title: "A Silent Voice",
-   },
-   {
-      cover: "https://images8.alphacoders.com/100/thumb-1920-1005531.jpg",
-      title: "Demon Slayer",
-   },
-   {
-      cover: "https://images2.alphacoders.com/582/thumb-1920-582804.png",
-      title: "Attack On Titan",
+      title: "Diabetes Prediction App 🩺",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      techStackIcons: [
+         <TbBrandCSharp size={28} />,
+         <BsUnity size={22} />,
+         <FaGithub size={22} />,
+      ],
+
+      images: [
+         {
+            cover: DB0,
+            title: "Diabetes Prediction App 0",
+         },
+         {
+            cover: DB1,
+            title: "Diabetes Prediction App 1",
+         },
+         {
+            cover: DB2,
+            title: "Diabetes Prediction App 2",
+         },
+      ]
    },
 ];
+
 
 const Projects = () => {
   return (
@@ -51,21 +162,48 @@ const Projects = () => {
       <div className='max-w-7xl mx-auto px-8 py-24 lg:py-20'>
          <h2 className='text-accent bg-transparent pb-12 text-start ml-18'>Projects</h2>
          <h3 class="font-bold text-3xl lg:text-5xl tracking-tight mb-20 text-start ml-18 ">Some of My Projects 💻</h3>
-         <Grid container spacing={2} justifyContent="center">
-            <Grid item xs={12} lg={6}>
-               <ResponsiveCarousel data={data} />
-               <h3 className='font-normal text-3xl lg:text-2xl -tracking-normal my-6 max-w-2xl mx-6 text-start text-accent'>
-               [ Web Developer ] 
-               </h3>
-            </Grid>
-            <Grid item xs={12} lg={6}>
-               <ResponsiveCarousel data={data} />
-               <h3 className='font-normal text-3xl lg:text-2xl -tracking-normal my-6 max-w-2xl mx-6 text-start text-accent'>
-               [ Web Developer ] 
-               </h3>
-            </Grid>
-         </Grid>
 
+         {/* 
+         {eventData.event_description.length > 120
+         ? eventData.event_description.slice(0, 200) + "..."
+         : eventData.event_description}
+
+         */}
+
+         <Grid container columnSpacing={6} rowSpacing={14} justifyContent="start">
+
+            {projectData.map((project, index) => {
+               return (
+                  <Grid item xs={12} lg={6} key={index}>
+                     <ResponsiveCarousel data={project.images} />
+                     <div className=' mx-7'>
+                        <h3 className='font-normal text-3xl lg:text-2xl -tracking-normal my-6 max-w-2xl text-start text-accent'>
+                           [ {project.title}]
+                        </h3>
+                        <p className=' leading-7 text-muted tracking-wide text-start'>
+                           {project.description}
+                        </p>
+                        <div className='flex justify-between mt-6'>
+                           <span className='hoverGroup cursor-pointer '>
+                              <a href='#about' className='inline-block text-lg hover:text-accent hover:underline'>
+                                 Learn More 
+                              </a>
+                              <FaLongArrowAltRight className='inline-block ml-2 arrowIcon hover:text-accent' />
+                           </span>
+                           <span class="whitespace-nowrap relative mr-4"><span class="absolute bg-[#212121] -left-3 -top-1 -bottom-0 -right-2 -rotate-2"></span>
+                              <span class="relative">
+                                 <div className='flex justify-normal gap-4'>
+                                    {project.techStackIcons}
+                                 </div>
+                              </span>
+                           </span>
+                        </div>   
+                     </div>
+                  </Grid>
+               )
+            })}
+            
+         </Grid>
       </div>
    </section>
    )
