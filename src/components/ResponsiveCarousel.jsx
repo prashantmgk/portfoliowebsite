@@ -4,6 +4,10 @@ import {
   ResponsiveContainer,
 } from "react-stacked-center-carousel";
 
+// import Fab from "@mui/material/Fab";
+// import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+// import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 
 export default function ResponsiveCarousel({data}) {
    const ref = React.useRef();
@@ -33,8 +37,8 @@ export default function ResponsiveCarousel({data}) {
                );
             }}
          />
-         {/* <>
-            <Fab
+         <>
+            {/* <Fab
                style={{ position: "absolute", top: "40%", left: 10, zIndex: 10 }}
                size="small"
                color="warning"
@@ -53,8 +57,8 @@ export default function ResponsiveCarousel({data}) {
                }}
             >
                <ArrowForwardIcon />
-            </Fab>
-         </> */}
+            </Fab> */}
+         </>
       </div>
    );
 }

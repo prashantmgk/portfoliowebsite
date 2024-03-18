@@ -1,9 +1,10 @@
 import React from 'react'
 import ResponsiveCarousel from './ResponsiveCarousel'
 import { Grid } from '@mui/material';
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 import { BsUnity } from "react-icons/bs";
 import { TbBrandCSharp } from "react-icons/tb";
-import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 import RealCarParking0 from '../assets/images/real-car-parking/real-car-parking-0.webp';
@@ -11,10 +12,24 @@ import RealCarParking1 from '../assets/images/real-car-parking/real-car-parking-
 import RealCarParking2 from '../assets/images/real-car-parking/real-car-parking-2.webp';
 import RealCarParking3 from '../assets/images/real-car-parking/real-car-parking-3.webp';
 
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+import { TbBrandRedux } from "react-icons/tb";
+import { SiApollographql } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
+import { SiScikitlearn } from "react-icons/si";
+import { SiChartdotjs } from "react-icons/si";
+
 import HS0 from '../assets/images/hysab-soch/hs0.png';
 import HS1 from '../assets/images/hysab-soch/hs1.png';
 import HS2 from '../assets/images/hysab-soch/hs2.png';
 import HS3 from '../assets/images/hysab-soch/hs3.png';
+
 
 import DB0 from '../assets/images/diabetes-prediction/db0.png';
 import DB1 from '../assets/images/diabetes-prediction/db1.png';
@@ -63,9 +78,11 @@ const projectData = [
       title: "Ticket Sewa Organizer Panel 🎫",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
       techStackIcons: [
-         <TbBrandCSharp size={28} />,
-         <BsUnity size={22} />,
-         <FaGithub size={22} />,
+         <FaReact size={22} />,
+         <SiTailwindcss size={22} />,
+         <SiMui size={22} />,
+         <TbBrandRedux size={22} />,
+         <SiChartdotjs size={22} />,
       ],
 
       images: [
@@ -104,9 +121,12 @@ const projectData = [
       title: "Hysab Soch 📊",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
       techStackIcons: [
-         <TbBrandCSharp size={28} />,
-         <BsUnity size={22} />,
-         <FaGithub size={22} />,
+         <FaReact size={22} />,
+         <SiMui size={22} />,
+         <SiApollographql size={22} />,
+         <GrGraphQl size={22} />,
+         <FaNodeJs size={22} />,
+         <SiMongodb size={22} />,
       ],
 
       images: [
@@ -133,8 +153,10 @@ const projectData = [
       title: "Diabetes Prediction App 🩺",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
       techStackIcons: [
-         <TbBrandCSharp size={28} />,
-         <BsUnity size={22} />,
+         <FaReact size={22} />,
+         <FaSass size={22} />,
+         <SiDjango size={22} />,
+         <SiScikitlearn size={22} />,
          <FaGithub size={22} />,
       ],
 
