@@ -15,7 +15,6 @@ import RealCarParking3 from '../assets/images/real-car-parking/real-car-parking-
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
-import { FaSass } from "react-icons/fa";
 import { TbBrandRedux } from "react-icons/tb";
 import { SiApollographql } from "react-icons/si";
 import { GrGraphQl } from "react-icons/gr";
@@ -47,7 +46,7 @@ import TSOP6 from '../assets/images/ticket-sewa-organizer-panel/tsop6.png';
 const projectData = [
    {
       title: "Real Car Parking 🚦",
-      description: "Real Car Parking is a simple and minimal car parking game with easy-to-use controls. Practice your parking skills in this 3D setup with customizable controls like driver seat sides and steering...",
+      description: "Real Car Parking is a simple and minimal car parking mobile game with easy-to-use controls. I was very fortunate to be a part of a great dev team at Yarsa Games. I was responsible for building the base prototype and level design. The game was built using Unity and C#. The game has been downloaded over 50K times on the Google Play Store.",
       techStackIcons: [
          <TbBrandCSharp size={28} />,
          <BsUnity size={22} />,
@@ -71,12 +70,13 @@ const projectData = [
             cover: RealCarParking3,
             title: "Real Car Parking 3",
          },
-      ]
+      ],
+      link: "https://play.google.com/store/apps/details?id=io.yarsa.games.carparking&hl=en&gl=US"
    },
 
    {
       title: "Ticket Sewa Organizer Panel 🎫",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      description: "Ticket Sewa Organizer Panel is one of my most recent projects. It is a web portal for event organizers to manage their events. This project was made for Ticket Sewa, an up an coming ticketing platform startup in Nepal. I was responsible for the web development and UI/UX design for the organizer panel and the mobile app. This project really help me expand my knowledge as a frontend developer in both design and development point of view.",
       techStackIcons: [
          <FaReact size={22} />,
          <SiTailwindcss size={22} />,
@@ -114,12 +114,13 @@ const projectData = [
             cover: TSOP6,
             title: "Ticket Sewa Organizer Panel 6",
          },
-      ]
+      ],
+      link: "https://organizer.ticketsewa.com.np/"
    },
 
    {
       title: "Hysab Soch 📊",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      description: "Ticket Sewa Organizer Panel is one of my most recent projects. It is a web portal for event organizers to manage their events. This project was for Ticket Sewa, an upcoming ticketing platform startup in Nepal. I was responsible for the web development and UI/UX design for the organizer panel and the mobile app. This project really helped me expand my knowledge as a frontend developer in both design and development points of view.",
       techStackIcons: [
          <FaReact size={22} />,
          <SiMui size={22} />,
@@ -146,15 +147,16 @@ const projectData = [
             cover: HS3,
             title: "Hysab Soch 3",
          }
-      ]
+      ],
+      link: "https://github.com/prashantmgk/bookkeepingwish_client/"
    },
 
    {
       title: "Diabetes Prediction App 🩺",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nulla sit sed, culpa, aut magni sint dolorem atque dolor fuga nisi qui amet excepturi sequi corporis eligendi? Officiis, a minima.",
+      description: "The Diabetes Prediction application was my university project. We were assigned to use AI and Machine Learning to solve a real-world problem. So, I used the a publicly available dataset from Kaggle to train the model. The frontend was built using React and Tailwind CSS, and the backend was built using Django. The model was trained using the Scikit-learn library. The project is open-source and available on GitHub.",
       techStackIcons: [
          <FaReact size={22} />,
-         <FaSass size={22} />,
+         <SiTailwindcss size={22} />,
          <SiDjango size={22} />,
          <SiScikitlearn size={22} />,
          <FaGithub size={22} />,
@@ -173,7 +175,8 @@ const projectData = [
             cover: DB2,
             title: "Diabetes Prediction App 2",
          },
-      ]
+      ],
+      link: "https://github.com/prashantmgk/diabetes_prediction_frontend/"
    },
 ];
 
@@ -207,7 +210,7 @@ const Projects = () => {
                         </p>
                         <div className='flex justify-between mt-6'>
                            <span className='hoverGroup cursor-pointer '>
-                              <a href='#about' className='inline-block text-lg hover:text-accent hover:underline'>
+                              <a href={project.link} target='_blank' className='inline-block text-lg hover:text-accent hover:underline' rel="noreferrer">
                                  Learn More 
                               </a>
                               <FaLongArrowAltRight className='inline-block ml-2 arrowIcon hover:text-accent' />

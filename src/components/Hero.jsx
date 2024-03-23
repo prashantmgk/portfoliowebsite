@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         <p className='text-lg lg:text-xl text-neutral-content'>I bring websites to life as a front-end developer. I translate designs into user-friendly interfaces. My focus is on creating intuitive web experiences.</p>
         <div class="space-y-4">
-          <a href={CV} download="CV of Prashant Man Gayak.pdf" className="btn btn-primary group btn-wide bw-on-hover" title="Send Me Message"><img src={DirectDonwloadIcon} alt="Download CV" style={{ width: '20px', background: 'transparent' }} /> Download CV</a>
+          <a href={CV} download="CV of Prashant Man Gayak.pdf" className="btn btn-primary group btn-wide bw-on-hover" title="Download My CV"><img src={DirectDonwloadIcon} alt="Download CV" style={{ width: '20px', background: 'transparent' }} /> Download CV</a>
           <p class="text-sm md:text-base flex justify-center items-center gap-2">
             <span className='text-muted'>Reach out to me on <span className="text-accent">social media</span> for quick response.</span>
           </p>
