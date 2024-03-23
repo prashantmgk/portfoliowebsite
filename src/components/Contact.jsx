@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import React, {useState} from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaXTwitter} from "react-icons/fa6";
 import SendMessageIcon from "../assets/icons/send-message.png";
 import PaperPlane from "../assets/icons/paper-plane.png";
 import Arrow from "../assets/icons/arrow.png";
@@ -56,8 +57,8 @@ const Contact = () => {
                         <a href="https://www.facebook.com/prwsantmangayak/" target='_blank' rel='noreferrer' className="text-xl border-2 border-slate-400 rounded-md p-2 hover:scale-110 hover:-rotate-18 transition-transform duration-200">
                            <FaFacebookF />
                         </a>
-                        <a href="https://twitter.com/PrashantMangay1" target='_blank' rel='noreferrer' className="text-xl border-2 border-slate-400 rounded-md p-2 hover:scale-110 hover:-rotate-18 transition-transform duration-200">
-                           <FaTwitter />
+                        <a href="https://x.com/prashantmgk" target='_blank' rel='noreferrer' className="text-xl border-2 border-slate-400 rounded-md p-2 hover:scale-110 hover:-rotate-18 transition-transform duration-200">
+                           <FaXTwitter />
                         </a>
                         <a href="https://www.linkedin.com/in/prashant-gayak-927a67195/" target='_blank' rel='noreferrer' className="text-xl border-2 border-slate-400 rounded-md p-2 hover:scale-110 hover:-rotate-18 transition-transform duration-200">
                            <FaLinkedinIn />
