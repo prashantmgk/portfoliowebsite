@@ -205,7 +205,7 @@ const Projects = () => {
                         <h3 className='font-normal text-3xl lg:text-2xl -tracking-normal my-6 max-w-2xl text-start text-accent'>
                            [ {project.title}]
                         </h3>
-                        <p className=' leading-7 text-muted tracking-wide text-start'>
+                        <p className=' leading-7 text-muted tracking-wide text-justify md:text-start'>
                            {project.description}
                         </p>
                         <div className='flex justify-between mt-6'>
@@ -215,7 +215,7 @@ const Projects = () => {
                               </a>
                               <FaLongArrowAltRight className='inline-block ml-2 arrowIcon hover:text-accent' />
                            </span>
-                           <span class="whitespace-nowrap relative mr-4"><span class="absolute bg-[#212121] -left-3 -top-1 -bottom-0 -right-2 -rotate-2"></span>
+                           <span class="whitespace-nowrap relative mr-4 hidden md:block"><span class="absolute bg-[#212121] -left-3 -top-1 -bottom-0 -right-2 -rotate-2"></span>
                               <span class="relative">
                                  <div className='flex justify-normal gap-4'>
                                     {project.techStackIcons}

@@ -29,11 +29,11 @@ const Navbar = () => {
 
 
    return (
-      <nav className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
+      <nav className="max-w-74xl mx-auto px-8 py-6 flex justify-between items-center">
          <div className="text-2xl mr-28 ">
             <a href="/" className='gradient-header font-extrabold'>pmg.dev</a>
          </div>
-         <div className="flex space-x-12 mr-12">
+         <div className="hidden md:flex space-x-12 mr-12">
             {menuItem.map((item) => (
                <a href={item.link} className={`hover:text-accent ${currentlySelected === item.id ? 'text-accent':''}`} onClick={
                   () => handleSelect(item.id)

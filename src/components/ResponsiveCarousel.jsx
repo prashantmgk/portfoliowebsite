@@ -73,10 +73,10 @@ export const Card = React.memo(function (props) {
       <div
          style={{
          width: "100%",
-         height: 300,
+         // height: 300,
          userSelect: "none",
          }}
-         className="my-slide-component"
+         className="my-slide-component h-[200px] md:h-[300px] w-[100%]"
       >
          <img
             alt="cover"
