@@ -6,8 +6,7 @@ import SendMessageIcon from "../assets/icons/send-message.png";
 import PaperPlane from "../assets/icons/paper-plane.png";
 import Arrow from "../assets/icons/arrow.png";
 import emailjs from '@emailjs/browser';
-import { toast, ToastContainer } from 'react-toastify';
-
+// import { toast, ToastContainer } from 'react-toastify';
 
 
 const Contact = () => {
