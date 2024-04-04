@@ -184,9 +184,9 @@ const projectData = [
 const Projects = () => {
   return (
    <section id='projects'>
-      <div className='max-w-7xl mx-auto px-8 py-24 lg:py-20'>
-         <h2 className='text-accent bg-transparent pb-12 text-start ml-18'>Projects</h2>
-         <h3 class="font-bold text-3xl lg:text-5xl tracking-tight mb-20 text-start ml-18 ">Some of My Projects 💻</h3>
+      <div className='max-w-7xl mx-auto px-2 md:px-8 py-24 lg:py-20'>
+         <h2 className='text-accent bg-transparent pb-12 text-start ml-4 md:ml-0'>Projects</h2>
+         <h3 class="font-bold text-3xl lg:text-5xl tracking-tight mb-20 text-start ml-4 md:ml-0 ">Some of My Projects 💻</h3>
 
          {/* 
          {eventData.event_description.length > 120
@@ -205,7 +205,7 @@ const Projects = () => {
                         <h3 className='font-normal text-3xl lg:text-2xl -tracking-normal my-6 max-w-2xl text-start text-accent'>
                            [ {project.title}]
                         </h3>
-                        <p className=' leading-7 text-muted tracking-wide text-justify md:text-start'>
+                        <p className=' leading-7 text-muted tracking-wide text-start'>
                            {project.description}
                         </p>
                         <div className='flex justify-between mt-6'>

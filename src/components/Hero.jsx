@@ -12,7 +12,7 @@ const Hero = () => {
       
       <div className='flex flex-col gap-10 lg:gap-14 items-center justify-center text-center lg:text-left lg:items-start'>
         <div>
-          <div className="flex gap-5 mb-6 mt-14 md:mt-0">
+          <div className="flex gap-5 mb-6 mt-12 md:mt-0">
             <a href="https://www.linkedin.com/in/prashant-gayak-927a67195/" 
               style={{ width: '30px', background: 'transparent' }} 
               target="_blank" 

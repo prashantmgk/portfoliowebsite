@@ -58,7 +58,7 @@ const Contact = () => {
       <>
          {/* <ToastContainer position='bottom-right' /> */}
          <section id="contact" className="bg-[#212121]">
-            <div className="max-w-7xl mx-auto px-8 py-24 lg:py-20">
+            <div className="max-w-7xl mx-auto px-6 md:px-8 py-24 lg:py-20">
                <h2 className="text-accent bg-transparent pb-12 text-end mr-4">
                   Contact Me
                </h2>
