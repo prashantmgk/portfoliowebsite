@@ -6,7 +6,7 @@ import SendMessageIcon from "../assets/icons/send-message.png";
 import PaperPlane from "../assets/icons/paper-plane.png";
 import Arrow from "../assets/icons/arrow.png";
 import emailjs from '@emailjs/browser';
-// import { toast, ToastContainer } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 
 const Contact = () => {
@@ -26,29 +26,29 @@ const Contact = () => {
             () => {
                console.log('SUCCESS!');
                form.current.reset();
-               // toast.success("Message Sent Successfully 👍", {
-               //    position: "bottom-right",
-               //    autoClose: 2500,
-               //    hideProgressBar: false,
-               //    closeOnClick: true,
-               //    pauseOnHover: true,
-               //    draggable: true,
-               //    progress: undefined,
-               //    theme: "colored",
-               // });
+               toast.success("Message Sent Successfully 👍", {
+                  position: "bottom-right",
+                  autoClose: 2500,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "colored",
+               });
             },
             (error) => {
                console.log('FAILED...', error.text);
-               // toast.error(error.text, {
-               //    position: "bottom-right",
-               //    autoClose: 2500,
-               //    hideProgressBar: false,
-               //    closeOnClick: true,
-               //    pauseOnHover: true,
-               //    draggable: true,
-               //    progress: undefined,
-               //    theme: "colored",
-               // });
+               toast.error(error.text, {
+                  position: "bottom-right",
+                  autoClose: 2500,
+                  hideProgressBar: false,
+                  closeOnClick: true,
+                  pauseOnHover: true,
+                  draggable: true,
+                  progress: undefined,
+                  theme: "colored",
+               });
             },
          );
     };
